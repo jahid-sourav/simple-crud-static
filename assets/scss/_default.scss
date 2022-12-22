@@ -1,0 +1,45 @@
+// Theme Default Style Starts Here
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+::selection {
+	background: $secondaryBg;
+	color: $primaryText;
+}
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+a,
+button,
+select {
+	cursor: pointer;
+	transition: 0.3s all linear;
+	&:focus {
+		outline: 0;
+	}
+}
+.logo{
+	width: 50px;
+}
+// Theme Default Style Ends Here
